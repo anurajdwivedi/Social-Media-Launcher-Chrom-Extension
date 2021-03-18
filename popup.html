@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuraj's Social Media Launcher</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" 
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fontawesome.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style>
+        html, body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 384px;
+            /* background-color: rgb(89, 45, 247);  */
+            background-color: black;
+        }
+
+        h1{
+            font-family: 'Menlo', monospace ;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            /* color: #2f5876; */
+            color: white;
+        }
+
+        a:link a:visited {
+            color: white;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img{
+            width: 30px;
+        }
+
+        .model-header {
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+
+        .model-content {
+            padding: 0 22px;
+            color: white;
+            text-align: center;
+        }
+
+        .model-icons {
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+        }
+
+        .logo {
+            padding: 16px;
+        }
+
+        .logo-icon {
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+
+        .version {
+            color: white;
+            font-size: 18px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content:space-between;
+            padding: 18px 22px;
+        }
+
+        .flex {
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+
+        .flex:hover {
+            opacity: 0.4;
+        }
+
+        .flex .fa {
+            font-size: 40px;
+            color: white;
+        }
+
+        .footer{
+            text-align: center;
+            color: white;
+            font-size: 13px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="model-header">
+        <h1 class="logo">
+            <img src="images/Anuraj-logo.png" alt="Anuraj's Social Media Launcher" class="logo-icon">Social Media Launcher<span class="version">(V1)</span>
+        </h1>
+    </div>
+    <div class="model-content">
+        <p>Easily access Anuraj's Dwivedi Content</p>
+    </div>
+    <div class="model-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://www.digitalmarketingguider.com" target="_blank">
+                <i class="fa fa-globe"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.instagram.com/anurajdwivedii" target="_blank">
+                <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.facebook.com/anuraj.dwivedi.7" target="_blank">
+                <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.linkedin.com/in/anurajdwivedi" target="_blank">
+                <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.twitter.com/anurajdwivedi" target="_blank">
+                <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://open.spotify.com/show/0Hpo0NMyTCbh6rp4sWcVN6" target="_blank">
+                <i class="fa fa-spotify"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.github.com/anurajdwivedi" target="_blank">
+                <i class="fa fa-github"></i>
+                </a>
+            </div> 
+        </div>
+        <hr>
+        <p class="footer">Created by Anuraj Dwivedi with <i class="fa fa-heart"></i></p>
+        <br>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
